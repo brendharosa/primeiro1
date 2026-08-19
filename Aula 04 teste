@@ -15,21 +15,35 @@
       "source": [
         "nota = float (input(\"Digite o valor da nota: \"))\n",
         "if nota < 60:\n",
-        "  print (\"Sua nota {} foi insuficiente! \".format(nota) )\n",
+        " print (\"Sua nota {} foi insuficiente! \".format(nota) )\n",
         "else:\n",
-        "  print (\"Sua nota {} foi suficiente \".format(nota) )"
+        "  print (\"Sua nota {} foi suficiente \".format(nota) )\n",
+        "  print (\"Nota boa\")"
       ],
       "metadata": {
-        "id": "I6hc4MAPLJAV"
+        "id": "I6hc4MAPLJAV",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "4654e7ad-2557-4689-d220-a112a17a8a33"
       },
-      "execution_count": null,
-      "outputs": []
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite o valor da nota: 50\n",
+            "Sua nota 50.0 foi insuficiente! \n"
+          ]
+        }
+      ]
     }
   ],
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyNv5EPK49WTTzR6tJG0i9KK",
+      "authorship_tag": "ABX9TyMWUFgxkLysC2PCN+iNAeQn",
       "include_colab_link": true
     },
     "kernelspec": {
